@@ -1,6 +1,6 @@
 
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
+  <footer class="main-footer navbar-fixed-bottom">
     <strong>Copyright &copy; <a href="http://www.goldvirtual.com.br">Gold Virtual Airlines</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
@@ -9,10 +9,7 @@
     </div>
   </footer>
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
+
   <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
@@ -64,6 +61,7 @@
 
 
 <script>
+
   $(function () {
     $('#tbConsulta').DataTable({
       "paging": true,
@@ -71,6 +69,7 @@
       "searching": true,
       "ordering": true,
       "info": true,
+      "responsive": true,
       "autoWidth": false
     });
   });
@@ -81,6 +80,7 @@
       "lengthChange": false,
       "searching": true,
       "ordering": false,
+      "responsive": true,
       "info": true,
       "autoWidth": false
     });

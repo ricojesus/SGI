@@ -145,7 +145,7 @@
             </ul>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="" class="nav-link">
+                <a href="/sgi/classes/controllers/membro_controller.php" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>Membros</p>
                 </a>
