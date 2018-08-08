@@ -16,7 +16,7 @@
 
       <div class="row">
         <div class="col-12">
-          <div class="card card-primary card-outline">
+          <div class="card card-primary card-info">
             <!-- /.card-header -->
             <div class="card-header">
               <h3 class="card-title">Cadastro de Membros</h3>
@@ -109,7 +109,7 @@
               </div>
 
               <div class="card-footer">
-                <button type="submit" name="btnGravar" class="btn btn-sm btn-primary" >Gravar</button>
+                <button type="submit" name="btnGravar" class="btn btn-sm btn-info" >Gravar</button>
                 <button type="submit" name="btnExcluir" class="btn btn-sm btn-danger" onclick="return confirm('Confirma a Exclusão do Membro ?');" >Excluir</button>
                 <a href="../controllers/membro_controller.php" class="btn btn-outline-secondary btn-sm">Voltar</a>
               </div>            

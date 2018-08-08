@@ -7,7 +7,7 @@
     <section class="content">
       <div class="row">
         <div class="col-12">
-          <div class="card card-primary card-outline">
+          <div class="card card-primary card-info">
             <!-- /.card-header -->
             <div class="card-header">
               <h3 class="card-title">Lista de Membros</h3>
@@ -47,7 +47,7 @@
                 </table>
                 <div class="row">
                     <div class="col">
-                    <a href="../controllers/membro_controller.php?action=novo" class="btn btn-success">Novo Membro</a>
+                    <a href="../controllers/membro_controller.php?action=novo" class="btn btn-info">Novo Membro</a>
                 </div>
 
             </div>
