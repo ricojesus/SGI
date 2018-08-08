@@ -126,6 +126,7 @@
           // Presidencia ou RH
           //if ($profile == 3 || $profile == 5) {
           ?>
+          <li class="nav-header">MENU DE ACESSOS</li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-users"></i>
@@ -136,12 +137,30 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/examples/invoice.html" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Perfis de Acesso</p>
+                  <p>Congregações</p>
                 </a>
               </li>
             </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>Membros</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>Fornecedores</p>
+                </a>
+              </li>
+            </ul>
+
+
           </li>    
           </li>   
 
@@ -162,7 +181,15 @@
               <li class="nav-item">
                 <a href="pages/mailbox/mailbox.html" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Estatísticas de Voos</p>
+                  <p>Registro de Recebimento</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>Registro de Pagamento</p>
                 </a>
               </li>
             </ul>
@@ -180,7 +207,7 @@
               <li class="nav-item">
                 <a href="pages/mailbox/mailbox.html" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Estatísticas de Voos</p>
+                  <p>Fluxo de Caixa</p>
                 </a>
               </li>
             </ul>
@@ -198,18 +225,79 @@
               <li class="nav-item">
                 <a href="pages/examples/invoice.html" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
+                  <p>Usuários</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                  <i class="fa fa-circle-o nav-icon"></i>
                   <p>Perfis de Acesso</p>
+                </a>
+              </li>
+            </ul>            
+          </li>
+        
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-question"></i>
+              <p>
+                Ajuda
+                <i class="fa fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle="modal" data-target="#modal-default">
+                  <i class="fa fa-circle-o nav-icon"></i>
+                  <p>Sobre o sistema</p>
                 </a>
               </li>
             </ul>
           </li>
-        
+
+
         </ul>
       </nav>
-      <!-- /.sidebar-menu -->
-
-
-      
+      <!-- /.sidebar-menu -->      
     </div>
     <!-- /.sidebar -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SISTEMA DE GESTÃO DE IGREJAS</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <dl>
+              <dt>DESCRIÇÃO</dt>
+              <dd>Tem como objetivo gerenciar de forma simples e intuitiva o fluxo financeiro das Congregações</dd>
+              <dd>Permitindo gerenciar as entradas e saídas de caixa, para todas as congregações do grupo.</dd>
+              <dd>Contendo acessos especificos por perfil dos usuários, trazendo transparencia e facilidade na gestão do caixa da Igreja.</dd>
+              <P>
+              <dt>EQUIPE RESPONSÁVEL</dt>
+              <dd>Ricardo Jesus</dd>
+              <dd>Marlony Teles</dd>
+              <dd>Osvaldo Neris</dd>
+              <dd>Adriano</dd>
+              <P>
+              <dt>VERSÃO DO SISTEMA</dt>
+              <dd>Versão 0.0.1 de Agosto/2018</dd>
+            </dl>                       
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Voltar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+
   </aside>

@@ -174,7 +174,7 @@
               <div class="card-header d-flex p-0">
                 <h3 class="card-title p-3">
                   <i class="fa fa-pie-chart mr-1"></i>
-                  Voos
+                  Caixa por Congregação
                 </h3>
                 <ul class="nav nav-pills ml-auto p-2">
                   <li class="nav-item">
@@ -231,7 +231,7 @@
                     <!-- checkbox -->
                     <input type="checkbox" value="" name="">
                     <!-- todo text -->
-                    <span class="text">Enviar relatório de voos mensais</span>
+                    <span class="text">Enviar relatório de Caixa mensais</span>
                     <!-- Emphasis label -->
                     <small class="badge badge-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
                     <!-- General tools such as edit or delete-->
