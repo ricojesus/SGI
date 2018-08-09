@@ -36,7 +36,7 @@
               <div class="inner">
                 <h3>120</h3>
 
-                <p>Total de Pilotos</p>
+                <p>Total de Membros</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -51,7 +51,7 @@
               <div class="inner">
                 <h3>70</h3>
 
-                <p>Total de Pilotos Ativos</p>
+                <p>Total de Membros Ativos</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -66,7 +66,7 @@
               <div class="inner">
                 <h3>5</h3>
 
-                <p>Total de Aspirantes</p>
+                <p>Total de Congregantes</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -81,7 +81,7 @@
               <div class="inner">
                 <h3>3</h3>
 
-                <p>Total de Pilotos Afastados</p>
+                <p>Total de Membros Afastados</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -107,7 +107,7 @@
               <div class="inner">
                 <h3>120</h3>
 
-                <p>Aspirantes próximo a expiraçao</p>
+                <p>Pagamentos próximos ao Vencimento</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -122,7 +122,7 @@
               <div class="inner">
                 <h3>70</h3>
 
-                <p>Aspirantes com prazo expirado</p>
+                <p>Pagamentos vencidos</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -137,7 +137,7 @@
               <div class="inner">
                 <h3>5</h3>
 
-                <p>Afastamento próximos da expiraçao</p>
+                <p>Relatórios a serem analisados</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -152,7 +152,7 @@
               <div class="inner">
                 <h3>3</h3>
 
-                <p>Afastamentos com prazo expirado</p>
+                <p>Congregações sem Relatório</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -206,7 +206,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="ion ion-clipboard mr-1"></i>
-                  To Do List
+                  Para Fazer
                 </h3>
 
                 <div class="card-tools">
@@ -246,7 +246,7 @@
                       <i class="fa fa-ellipsis-v"></i>
                     </span>
                     <input type="checkbox" value="" name="">
-                    <span class="text">E-mail para aspirantes com prazo a vencer</span>
+                    <span class="text">E-mail para Tesourarias com prazo a vencer</span>
                     <small class="badge badge-info"><i class="fa fa-clock-o"></i> 4 hours</small>
                     <div class="tools">
                       <i class="fa fa-edit"></i>
@@ -259,7 +259,7 @@
                       <i class="fa fa-ellipsis-v"></i>
                     </span>
                     <input type="checkbox" value="" name="">
-                    <span class="text">Entrevistas da Semana</span>
+                    <span class="text">Agendas da Semana</span>
                     <small class="badge badge-warning"><i class="fa fa-clock-o"></i> 1 day</small>
                     <div class="tools">
                       <i class="fa fa-edit"></i>
